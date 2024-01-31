@@ -1,0 +1,835 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.godzilla-div{
+    display: flex;
+}
+.vertical-nav{
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+    border-right: 0.5px solid grey;
+}
+.horizontal-div{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.fixed-div{
+    width: 80%;
+    height: 10vh;
+    background-color: black;
+    position: fixed;
+    border-bottom: 0.5px solid grey;
+    margin-left: 246px;
+}
+.unfixed-div{
+    width: 100%;
+    height: 110vh;
+    /* background-color: black; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* opacity: 0.9; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: contain;
+    background-image: url(./img/blurbody.jpg);
+}
+.set1{
+    width: 65%;
+    height: 80vh;
+    /* background-color: chocolate; */
+    margin-top: 72px;
+    margin-left: 340px;
+}
+.flexed-row{
+    width: 100%;
+    height: 7vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.item{
+    width: 60px;
+    height: 6vh;
+    background-color: rgba(255, 255, 255, 0.204);
+    /* opacity: 0.2; */
+    border-radius: 10px;
+    padding-top: 0.2px;
+    cursor: pointer;
+}
+.item:hover{
+    width: 60px;
+    height: 6vh;
+    background-color: rgba(255, 255, 255, 0.32);
+    /* opacity: 0.2; */
+    border-radius: 10px;
+    padding-top: 0.2px;
+    cursor: pointer;
+}
+.item-content{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    /* margin-left: 20px; */
+    text-align: center;
+    margin-top: 9px;
+}
+.item1{
+    width: 70px;
+    height: 6vh;
+    background-color: rgba(255, 255, 255, 0.18);
+    /* opacity: 0.2; */
+    border-radius: 10px;
+    padding-top: 0.2px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.item1:hover{
+    width: 70px;
+    height: 6vh;
+    background-color: rgba(255, 255, 255, 0.354);
+    /* opacity: 0.2; */
+    border-radius: 10px;
+    padding-top: 0.2px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.item2{
+    width: 80px;
+    height: 6vh;
+    background-color: rgba(255, 255, 255, 0.186);
+    /* opacity: 0.2; */
+    border-radius: 10px;
+    padding-top: 0.2px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.item2:hover{
+    width: 80px;
+    height: 6vh;
+    background-color: rgba(255, 255, 255, 0.286);
+    /* opacity: 0.2; */
+    border-radius: 10px;
+    padding-top: 0.2px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.dp-row{
+    width: 100%;
+    height: 10vh;
+    margin-top: 0px;
+    /* margin-left: 0px; */
+    /* background-color: cornsilk; */
+    display: flex;
+    margin-top: 30px;
+}
+.dp{
+    width: 55px;
+    height: 8.5vh;
+    border-radius: 35px;
+}
+.text-label{
+    width: 170px;
+    height: 10vh;
+    /* background-color: seagreen; */
+    padding: 0px;
+    margin-left: 20px;
+}
+.ryder{
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.liisten-again{
+    font-size: 27px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.liisten-again:hover{
+    font-size: 27px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+.more{
+    height: 32px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.495);
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-left: 420px;
+}
+.more:hover{
+    height: 32px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.52);
+    margin-top: 20px;
+}
+.scroll-right{
+    width: 20px;
+    height: 23px;
+   color:white;
+   border-radius: 50%;
+   border: 0.5px solid white;
+   font-size: 20px;
+    padding-left: 7px;
+    margin-left: 5px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+.scroll-right:hover{
+    width: 20px;
+    height: 20px;
+   color:white;
+   border-radius: 50%;
+   border: 0.5px solid white;
+   font-size: 20px;
+    padding-left: 7px;
+    margin-left: 5px;
+    margin-top: 23px;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.339);
+}
+.sroll-left{
+    width: 20px;
+    height: 23px;
+   color: grey;
+   border-radius: 50%;
+   border: 0.5px solid grey;
+   font-size: 20px;
+    padding-left: 5px;
+    margin-top: 23px;
+    margin-right: 7px;
+    /* background-color: darkcyan; */
+}
+
+.intro-row{
+    width: 100%;
+    height: 39vh;
+    /* background-color: yellow; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.contents{
+    width: 19%;
+    height: 39vh;
+    /* background-color: aqua; */
+}
+.main-img1{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/main-img1.jpg);
+}
+.main-img1:hover + .dots-div{
+    display: contents;
+}
+.dots{
+    width: 50px;
+    height: 30px;
+    /* margin-left: 110px; */
+    /* margin-top: 5px; */
+}
+.dots-div{
+    width: 30px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 5px;
+    border-radius: 30px;
+    background-image: url(./img/3\ dots.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    display: none;
+    /* background-color: rgba(255, 255, 255, 0.468); */
+}
+.dots-div:hover{
+    width: 30px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 5px;
+    border-radius: 30px;
+    background-image: url(./img/3\ dots.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: none; */
+    background-color: rgba(255, 255, 255, 0.468);
+}
+.play-div{
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 70px;
+    border-radius: 30px;
+    background-image: url(./img/play.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
+    cursor: pointer;
+    /* background-color: rgba(255, 255, 255, 0.468); */
+}
+.play-div:hover{
+    width: 40px;
+    height: 40px;
+    margin-left: 99px;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-image: url(./img/play.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: none; */
+    cursor: pointer;
+    background-color: black;
+}
+.label1{
+    color: white;
+    font-weight: 2;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.label1:hover{
+    color: white;
+    font-weight: 2;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.label2{
+    color: grey;
+    font-weight: 2;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.label2:hover{
+    color: grey;
+    font-weight: 2;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main-img2{
+    width: 100%;
+    height: 25vh;
+    border-radius: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/popsmoke.jpg);
+
+}
+.main-img3{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/lil-nas-x-holiday-tgj.jpeg);
+}
+.main-img4{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/jimmy\ uso.jpg);
+}
+.second-row{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+}
+.row2{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+}
+.row3{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    margin-top: 190px;
+}
+.hip-hop{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 330px;
+    cursor: pointer;
+    margin-top: 0;
+    /* font-size: 25px; */
+}
+.hip-hop:hover{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 330px;
+    text-decoration: underline;
+}
+.hip-hoP{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 325px;
+    cursor: pointer;
+    margin-top: 0;
+    font-size: 25px;
+}
+.hip-hoP:hover{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 325px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.More{
+    height: 32px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.604);
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-left: 500px;
+}
+.More:hover{
+    height: 32px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    background-color: gray;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-left: 500px;
+}
+.Mores:hover{
+    height: 32px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    background-color: gray;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-left: 500px;
+}
+.Mores{
+    height: 32px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.604);
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-left: 600px;
+}
+.intro-row1{
+    width: 89%;
+    height: 39vh;
+    /* background-color: yellow; */
+    /* margin-top: 20px; */
+    display: flex; 
+    padding-left:90px;
+    /* padding-right: 90px; */
+    justify-content: space-between;
+
+}.contents1{
+
+    width: 15%;
+    height: 39vh;
+    /* background-color: aqua; */
+    margin-left: 247px;
+}
+.contents2{
+    width: 15%;
+    height: 39vh;
+    /* background-color: aqua; */
+    /* margin-left: 120px; */
+}
+.contents3{
+    width: 15%;
+    height: 39vh;
+    /* background-color: aqua; */
+    /* margin-left: 90px; */
+}
+
+.main-imgOne{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/perfect\ ten.jpg);
+}                               
+.contents4{
+
+    width: 15%;
+    height: 39vh;
+    /* background-color: aqua; */
+    /* margin-left: 7px; */
+}
+.main-imgTwo{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/rap\ battles.jpg);
+} 
+.main-imgThree{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/hillsong\ worship\ radio.jpg);
+}
+.main-imgFour{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/tim\ godfrey.jpg);
+} 
+.third-row{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    margin-top: 200px;
+}
+.main-imgfive{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/replay\ mix.jpg);
+}
+.main-imgsix{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/my\ supermix.jpg);
+}
+.main-imgseven{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/discover\ mix.jpg);
+}
+.main-imgeight{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/liked\ music.png);
+}
+.p-content{
+    color: grey;
+    margin-left: 326px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.scroll-righT{
+    width: 20px;
+    height: 23px;
+   color:white;
+   border-radius: 50%;
+   border: 0.5px solid white;
+   font-size: 20px;
+    padding-left: 7px;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.sroll-lefT{
+    width: 20px;
+    height: 23px;
+   color: grey;
+   border-radius: 50%;
+   border: 0.5px solid grey;
+   font-size: 20px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 7px;
+    margin-left: 580px;
+    /* background-color: darkcyan; */
+}
+.scroll-righT:hover{
+    width: 20px;
+    height: 20px;
+   color:white;
+   border-radius: 50%;
+   border: 0.5px solid white;
+   font-size: 20px;
+    padding-left: 7px;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.339);
+}
+.main-imgnine{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/billion\ views\ club.jpg);
+}
+.main-imgten{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/billion-views-club.jpg);
+}
+.main-imgeleven{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/billion-views-club-OG.jpg);
+}
+.main-imgtwelve{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/Billion\ Views\ Club\ -\ Rock.jpg);
+}
+.hip-hOP{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 325px;
+    cursor: pointer;
+    margin-top: 0;
+    font-size: 21px;
+}
+.hip-hOP:hover{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 325px;
+    text-decoration: underline;
+    font-size: 21px;
+}
+.sroll-leFT{
+    width: 20px;
+    height: 23px;
+   color: grey;
+   border-radius: 50%;
+   border: 0.5px solid grey;
+   font-size: 20px;
+    padding-left: 5px;
+    margin-top: 3px;
+    margin-right: 7px;
+    margin-left: 350px;
+    /* background-color: darkcyan; */
+}
+
+.scroll-rigHT{
+    width: 20px;
+    height: 23px;
+   color:white;
+   border-radius: 50%;
+   border: 0.5px solid white;
+   font-size: 20px;
+    padding-left: 7px;
+    margin-left: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.scroll-rigHT:hover{
+    width: 20px;
+    height: 20px;
+   color:white;
+   border-radius: 50%;
+   border: 0.5px solid white;
+   font-size: 20px;
+    padding-left: 7px;
+    margin-left: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.339);
+}
+
+.main-imgthirteen{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/christian\ hip\ hop\ hits.jpg);
+}
+
+.main-imgfourtheen{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/acoustic\ love\ songs.jpg);
+}
+
+.main-imgfifteen{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/on\ everything.jpg);
+}
+
+.main-imgsixteen{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    /* background-position: center; */
+    background-image: url(./img/presenting\ NF.jpg);
+}
+.flexed-items{
+    display: flex;
+}
+.rap-img{
+    border-radius: 50%;
+   width: 70px;
+   height: 8vh;
+   margin-left: 340px; 
+   background-image: url(./img/rap-img.jpg);
+   background-size: contain;
+   
+}
+.FLEXED-ITEMS{
+    display: block;
+    width: 260px;
+    height: 7vh;
+    background-color: darkblue;
+    padding: 0;
+
+}
+
+.hip-HoP{
+    color: white;
+    font-family: sans-serif;
+    /* margin-left: 325px; */
+    cursor: pointer;
+    margin-top: 0;
+    font-size: 20px;
+    padding: 0;
+}
+.hip-HoP:hover{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 325px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.SIMILAR{
+    margin-left: 0;
+}
